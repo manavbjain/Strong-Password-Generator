@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  padding: 1rem 1.5rem;
+  border: 1px solid black;
+  width: 500px;
+  background-color: #8cf0a5;
+}
+
+.help_container {
+  padding: 1rem 1.5rem;
+  border: 1px solid black;
+  width: 1200px;
+  background-color: #8cf0a5;
+}
+
+h1{
+  text-align: center;
+  padding: 17px 0;
+}
+
+h2 {
+  text-align: left;
+  padding: 15px 0;
+}
+
+p {
+  text-align: left;
+}
+
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.result__container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result__container #copy {
+  height: 40px;
+  width: 40px;
+  background-color: #0b132b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.result__container #copy:hover {
+  background-color: #556565;
+  color: #ffffff;
+}
+
+#generate {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #0b132b;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+#generate:hover {
+  background-color: #556565;
+  color: #ffffff;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8cf0a5;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
