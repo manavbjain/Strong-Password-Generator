@@ -1,14 +1,14 @@
 # Strong-Password-Generator
 
-_Note: This project has a MIT License so feel free to clone it and use it as you wish to._
+_Note: This project has an MIT License so feel free to clone it and use it as you wish to._
 
-**If you find any bugs in the code or wish to add improvments to this project, please clone a fork and a create pull request. The stpes for the same are outlined below.**
+**If you find any bugs in the code or wish to add improvements to this project, please clone a fork and a create pull request. The steps for the same are outlined below.**
 
 ## Submitting Pull Requests to Improve 
 _Note: You need a GitHub account to submit a pull request._
 
 ### 1. Fork the Repository
-- Navitage to the GitHub repositiriy you wish to contribute to.
+- Navigate to the GitHub repository you wish to contribute to.
 - Click on the "Fork" button that is located at the top right corner of the page. This creates a copy of the repository in your GitHub account
 
 ### 2. Clone the Repository
@@ -42,27 +42,27 @@ _Note: You need a GitHub account to submit a pull request._
     ```
 
 ### 5. Push Changes to Your Fork
-- Push your committed chanes to your forked repository on GitHub:
+- Push your committed changes to your forked repository on GitHub:
     ```bash
     git push origin feature/proposed_feature_name
     ```
 
 ### 6. Create a Pull Request 
-- Once you have sucessfully pushed your proposed code changes, navigate to your forked repository on GitHub.
-- You should then be able to see a banner at the top indicating that you have recently pushed a new branch. Click on the "Comapre & pull request" button that is next to it.
+- Once you have successfully pushed your proposed code changes, navigate to your forked repository on GitHub.
+- You should then be able to see a banner at the top indicating that you have recently pushed a new branch. Click on the "Compare & pull request" button that is next to it.
 
 ### 7. Open a Pull Request
 - On the Pull Request page:
-    - Select the base repository and the base branch (base repository is the respository you originally forked from and the main branch).
+    - Select the base repository and the base branch (the base repository is the repository you originally forked from and the main branch).
     - Select your forked repository and the branch you created (this is the repository of your proposed code changes).
 - Fill in the title and description for your pull request. Be sure to provide context and adequate information about the changes you have proposed.
 
 ### 8. Review and Submit Your Improvements
-- Provide tests and documentation for the changes and add labels to categorie your pull request.
+- Provide tests and documentation for the changes and add labels to categorize your pull request.
 - Once done, click on the "Create pull request" button.
 
 ### 9. Merging the Pull Request
-- If the maintainers of the original repository need more information or clarification, they may comment on your pull request. You should make necessary changes based on the comments. 
+- If the maintainers of the original repository need more information or clarification, they may comment on your pull request. You should make the necessary changes based on the comments. 
 - Once approved, your pull request will be merged into the main branch of the original repository.
 - If your changes are merged, you will officialy become a contributor to the original repository. 
 
